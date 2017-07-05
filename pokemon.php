@@ -54,8 +54,7 @@ class pokemon{
   }
 
   public function stats(){
-    echo '<pre>';
-    print_r(array(
+    (array(
       'name'=> $this->getName(),
       'pv' => $this->getPv(),
       'lvl' => $this->getLvl(),
@@ -65,7 +64,6 @@ class pokemon{
 
 
     ));
-    echo '</pre>';
   }
 }
 
